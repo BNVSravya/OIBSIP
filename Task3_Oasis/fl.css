@@ -1,0 +1,56 @@
+*{
+
+    align-items: center;
+}
+
+input{
+    border-color: black;
+    justify-content: center;
+    background-color: rgb(126, 145, 139);
+}
+
+textarea{
+    border-color: rgb(30, 67, 71);
+    justify-content: center;
+    border-width: 2px;
+    background-color: rgb(40, 88, 108);
+}
+
+button{
+    border-color: black;
+    justify-content: center;
+    background-color: rgb(0, 166, 111);
+    margin:2px
+
+}
+
+.s{
+    height:50vh;
+    padding : 20vh;
+    display: flex; 
+    justify-content: left;
+    display: grid;
+    background-image: url(Todo.webp);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.r{
+    height: 45vh;
+    display: flex; 
+    justify-content: right;
+    margin-top: -32%;
+    width: 80%;
+    
+}
+
+h4{
+    height:40vh;
+    width:20px;
+    margin-top: -1%;
+    font-style: italic;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+}

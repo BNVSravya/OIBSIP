@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(85, 30, 62);
+}
+
+img{
+    border-radius: 20%;
+}
+body {  
+  text-align: center; color: aliceblue;
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+     opacity: 0;
+    } 
+    100% { 
+    opacity:1;
+   }
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.info{
+    color: rgb(174, 185, 146);
+}
+#more {display: none;}
