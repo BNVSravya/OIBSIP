@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validation Form</title>
+    </head>
+    <script src = "validate.js">
+    </script>
+    <script src = "min.js"></script>
+    <form action = "validation.jsp" method="post">
+        <label>Name : </label>
+        <input type = "text" name = "name" id = "name">
+        <br>
+        <label>Username : </label>
+        <input type = "text" name = "username" id = "uname">
+        <span id="errname">Should Contain Only Characters</span>
+        <br>
+        <label>Phone : </label>
+        <input type = "text" name = "phone" id = "phn">
+        <span id="errno">Should Contain Only Numbers</span>
+        <br>
+        <br>
+        <input type = "button" name = "Submit" value = "Submit" id = "btn">
+        <p id = "para">Thank You</p>
+    </form>
+</html>
